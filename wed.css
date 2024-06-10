@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.menu_bar {
+    background-color: rgb(17, 30, 69);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px; 
+}
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu_bar {
+    background-color: rgb(17, 30, 69);
+    height: 80px;
+    width: 98.5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px; 
+  }
+  .menu_bar1{
+    background-color: rgb(17, 30, 69);
+    height: 27px;
+    width: 98.5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+     
+  }
+  .mail{
+    display: flex;
+    text-align: center;
+  }
+  
+  .mail li{
+    color: #f9f9f9;
+    text-decoration: none;
+    list-style: none;
+    font-size: 18px; 
+    transition: color 0.3s; 
+    justify-content: space-between;
+    margin-left: 90px;
+  
+  }
+  .mail .mai{
+    margin-left: 160px;
+  }
+  .mail{
+    display: flex;
+    text-align: center;
+  }
+
+.log {
+    color: #fbfafa;
+    font-size: 24px; 
+    margin: 0;
+}
+
+
+.log span {
+    color: crimson;
+}
+
+
+.menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+
+.menu li {
+    padding: 0 20px; 
+    position: relative;
+}
+
+
+.menu li a {
+    color: #f9f9f9;
+    text-decoration: none;
+    font-size: 18px; 
+    transition: color 0.3s; 
+}
+
+
+.formation {
+    display: none;
+    position: absolute;
+    background-color: rgb(17, 30, 69);
+    width: 200px; 
+    padding: 10px;
+}
+
+
+.formation li {
+    margin: 5px 0;
+}
+
+.menu li:hover > .formation {
+    display: block;
+}
+
+
+.menu li:hover > a {
+    color: rgb(226, 69, 61);
+}
+
+
+
+
+/* ____________________Parti_image__________________ */
+ .principale {
+    padding-top: 70px;
+    background-size: cover;
+    height: 600px;
+    background-image: url(photo/photo.jpg) ;
+    
+    
+}
+
+
+h1 {
+    font-family: 'bell MT';
+    text-align: center;
+    color: antiquewhite;
+    font-size: 6em;
+    margin-top: 100px;
+    text-shadow: 3px 3px 2px black;
+
+}
+.trait1 {
+    height: 1px;
+    width: 25%;
+    margin: -3px auto;
+    background-color: #FFFAE1;
+    text-shadow: 3px 3px 2px black;
+
+}
+h3 {
+    text-align: center;
+    font-size: 3em;
+    color: antiquewhite;
+    text-shadow: 3px 3px 2px black;
+    
+}
